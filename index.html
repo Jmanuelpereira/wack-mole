@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="syles.css" />
+    <link rel="stylesheet" href="styles.css" />
     <script src="script.js"></script>
 
 
@@ -14,14 +14,20 @@
 <body>
 
     <center>
-    <div><h2>Score: <span id="score">10</span></h2></div>
+    <div id="board" class="box">
+        
+        <h2 >Score: <span id="score">10</span></h2>
+        <h2>Player: <span id="user"> </span></h2>
+    
+    
+    </div>
         <div id="game-board">
 
             
             
             <div class = "row row1">
                 <div class="col col1">  
-                    <!-- <span class="mole"></span> -->
+                    
                 </div>
               
                 <div class="col col2"></div>
@@ -47,6 +53,14 @@
             
             
         </div>
+
+        <div class="box"> 
+            <button class="btn start">Start Game</button>
+            <button class="btn">Easy</button>
+            <button class="btn">Moderate</button>
+            <button class="btn">Hard</button>
+        </div>
+      
         
     </center>
 
